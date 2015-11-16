@@ -1,0 +1,30 @@
+{
+  "name": "gulp-template2js",
+  "version": "1.0.2",
+  "keywords": [
+    "template",
+    "tpl"
+  ],
+  "description": "a module to convert some template files to js files",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "author": "thesadboy@qq.com",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.0"
+  },
+  "homepage": "https://github.com/thesadboy/gulp-tpl2js",
+  "devDependencies": {
+    "gulp-data": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesadboy/gulp-tpl2js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thesadboy/gulp-tpl2js/issues"
+  }
+}
