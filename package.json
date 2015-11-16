@@ -1,6 +1,6 @@
 {
   "name": "gulp-template2js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "keywords": [
     "template",
     "tpl"
@@ -16,15 +16,15 @@
     "gulp-util": "^3.0.7",
     "through2": "^2.0.0"
   },
-  "homepage": "https://github.com/thesadboy/gulp-tpl2js",
+  "homepage": "https://github.com/thesadboy/gulp-template2js",
   "devDependencies": {
     "gulp-data": "^1.2.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thesadboy/gulp-tpl2js.git"
+    "url": "git+https://github.com/thesadboy/gulp-template2js.git"
   },
   "bugs": {
-    "url": "https://github.com/thesadboy/gulp-tpl2js/issues"
+    "url": "https://github.com/thesadboy/gulp-template2js/issues"
   }
 }
