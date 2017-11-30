@@ -46,7 +46,7 @@ var template = function (options) {
         try {
             options.template = (options.template || 'dot').toLowerCase();
             var text = file.contents.toString();
-            text = text ? text.replace(/[\r\n\t]/gm, '').replace(/'/gm, '\\\'').replace(/\s{2,}/gim, '\s') : '';
+            text = text ? text.replace(/[\r\n\t]/gm, '').replace(/'/gm, '\\\'').replace(/\s{2,}/gim, ' ') : '';
             if (file.path) {
                 file.path = gUtil.replaceExtension(file.path, '.js');
                 var name = path.basename(file.path, '.js'),
